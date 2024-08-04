@@ -1,0 +1,434 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eee2e2;
+    color: #333;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin : 0px;
+    background-color: #eee2e2;
+}
+.header img{
+    width: 20px;
+    border-radius: 50%;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 2rem;
+    color: #333;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+}
+
+.contact button {
+    margin-right: 10px;
+}
+
+.main-content {
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #dcdac4;
+}
+.main-content2 {
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #dcdac4;
+}
+
+.main-content img {
+    width: 40px;
+    margin: 10px;
+    border-radius: 50%;
+    height: 40px;
+}
+
+.featured-products {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.product-grid {
+    display: flex;
+    height: 300;
+    width: 500;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.product-grid2 {
+    display: flex;
+    height: 300;
+    width: 500;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.product-grid3 {
+    display: flex;
+    height: 300;
+    width: 600;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.product-grid4 {
+    display: flex;
+    height: 300;
+    width: 500;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.product-grid5 {
+    display: flex;
+    height: 500;
+    width: 500;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.product-item {
+    background-color: #fff;
+    height: 400;
+    width: 800;
+    text-align: center;
+    border: 1px solid#ddd;
+    border-radius: 10px;
+   
+
+}.pagination {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-top: 20px;
+    
+
+}
+
+.pagination button {
+    margin: 0 10px;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2rem;
+    color: #333;
+}
+
+.contact-btn {
+    background-color: #6B8E23;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.plant-info {
+    max-width: 60%;
+}
+
+.plant-info h2 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.plant-care, .description {
+    margin-top: 20px;
+}
+
+.plant-care h3, .description h3 {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.plant-image {
+    max-width: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.plant-image img {
+    max-width: 500px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.login-container {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #eee7e7;
+    padding: 1px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+.login-container h1 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.login-box {
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.login-box h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.login-box p {
+    margin-bottom: 2rem;
+}
+
+.login-box form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-box label {
+    text-align: left;
+    margin-bottom: 0.5rem;
+}
+
+.login-box input {
+    padding: 10px;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-box .forgot-password {
+    text-align: right;
+    display: block;
+    margin-bottom: 1rem;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.login-box button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #6c757d;
+    color: white;
+    font-size: 1rem;
+}
+
+.signup-text {
+    margin-top: 1rem;
+}
+
+.signup-text a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fafafa;
+}
+
+.image-container img {
+    max-width: 600;
+    height:600;
+}
+.container {
+    background-color: #dcdac4;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    flex-direction: column;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.profile-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.profile-card h2 {
+    text-align: center;
+    height: 600px;
+    width: 900;
+}
+
+.profile-img img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+.profile-info {
+    margin-top: 20px;
+}
+
+.profile-info label {
+    font-weight: bold;
+}
+
+.profile-info p {
+    background-color: #f1f1f1;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px 0 10px;
+}
+
+.address-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.address-info div {
+    flex: 1;
+}
+
+
+
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+}
+
+header {
+    text-align: center;
+    background-color: #999999;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    color: #000;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.contact-info {
+    width: 45%;
+}
+
+.contact-info h2 {
+    font-size: 2em;
+}
+
+.stay-updated {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #d8c4c4;
+}
+
+.stay-updated h3 {
+    margin-top: 0;
+    color: #2e5533;
+}
+
+.stay-updated a {
+    display: block;
+    color: #2e5533;
+    text-decoration: none;
+    margin: 5px 0;
+}
+
+.contact-form {
+    width: 45%;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form input, .contact-form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #d8c4c4;
+    background-color: #d9b7b7;
+    color: #fff;
+}
+
+.contact-form textarea {
+    height: 100px;
+    resize: none;
+}
+
+.contact-form button {
+    padding: 10px;
+    border: none;
+    background-color: #a09090;
+    color: #fff;
+    cursor: pointer;
+}
